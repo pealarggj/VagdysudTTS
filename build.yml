@@ -14,7 +14,6 @@ on:
 
 jobs:
   matrix_on_mode:
-    runs-on: ubuntu-latest
     strategy:
       matrix:
         mode: ["", tiny, opt, rel]
